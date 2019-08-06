@@ -1,0 +1,245 @@
+*{
+  font-family: Helvetica;
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  font-family: cursive;
+}
+input{
+  width: 40% !important;
+}
+#search-query{
+  display: flex;
+  justify-content: center;
+}
+.card-img-overlay{
+  box-shadow: inset 100px 100px 150px 0px #000000;
+  transition: all 100ms ease-in-out
+}
+.card-img-overlay:hover{
+  box-shadow: inset 300px 200px 200px 0px #000000;
+}
+a:hover{
+  text-decoration: none !important;
+}
+a:visited{
+  color: dodgerblue !important;
+}
+
+select, button{
+  font-weight: bold !important;
+  align-self: center;
+}
+select{
+  margin: 2% !important;
+}
+
+
+@media (max-width: 375.98px) {
+    #search-query input{
+      width: 70% !important;
+      justify-content: space-evenly;
+    }
+    #filter-form{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    #filter-city{
+      display:flex;
+      flex-direction: column;
+      align-content:center;
+    }
+    #filter-source{
+      display:flex;
+      flex-direction: column;
+      align-content:center;
+    }
+    .card{
+      width: 100%;
+      padding: 1rem !important;
+      overflow: hidden;
+    }
+    .card-img-overlay{
+      padding: 0.5rem !important;
+    }
+    .card h5{
+      font-size: 1rem;
+      margin: 0
+    }
+    .card p{
+      font-size: 0.7rem;
+      margin: 0;
+    }
+    .card-img-overlay:hover{
+      box-shadow: inset 150px 150px 150px 0px black;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+    #search-query input{
+      width: 78% !important;
+      justify-content: space-evenly;
+    }
+    #filter-form{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    #filter-city{
+      display:flex;
+      width: 50%;
+      flex-direction: column;
+      align-content:center;
+    }
+    #filter-source{
+      display:flex;
+      width: 50%;
+      flex-direction: column;
+      align-content:center;
+    }
+    .card{
+      width: 100%;
+      padding: 1rem !important;
+      overflow: hidden;
+    }
+    .card-img-overlay{
+      padding: 0.5rem !important;
+    }
+    .card h5{
+      font-size: 1rem;
+      margin: 0
+    }
+    .card p{
+      font-size: 0.8rem;
+      margin: 0;
+    }
+    .card-img-overlay:hover{
+      box-shadow: inset 150px 150px 150px 0px black;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    #search-query input{
+      width: 78% !important;
+      justify-content: space-evenly;
+    }
+    #filter-form{
+      display: flex;
+      width: 70%;
+      margin: auto;
+      justify-content: space-evenly;
+    }
+    #filter-city{
+      display:flex;
+      width: 50%;
+      flex-direction: column;
+      align-content:center;
+    }
+    #filter-source{
+      display:flex;
+      width: 50%;
+      flex-direction: column;
+      align-content:center;
+    }
+    .card{
+      width: 100%;
+      padding: 1.2rem !important;
+      overflow: hidden;
+    }
+    .card-img-overlay{
+      padding: 0.5rem !important;
+    }
+    .card h5{
+      font-size: 1.2rem;
+      margin: 2%
+    }
+    .card p{
+      font-size: 1rem;
+      margin: 2%;
+    }
+    .card-img-overlay:hover{
+      box-shadow: inset 150px 150px 150px 0px black;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1320px) {
+  #search-query input{
+      width: 78% !important;
+      justify-content: space-evenly;
+    }
+    #filter-form{
+      display: flex;
+      /* width: 70%; */
+      margin: auto;
+      justify-content: space-evenly;
+    }
+    #filter-city{
+      display:flex;
+      width: 50%;
+      align-content:center;
+    }
+    #filter-source{
+      display:flex;
+      width: 25%;
+      align-content:center;
+    }
+    .card{
+      width: 49%;
+      padding: 1rem !important;
+      overflow: hidden;
+    }
+    .card-img-overlay{
+      padding: 0.5rem !important;
+    }
+    .card h5{
+      font-size: 1.1rem;
+      margin: 0.5%
+    }
+    .card p{
+      font-size: 0.8rem;
+      margin: 0.5%;
+    }
+    .card-img-overlay:hover{
+      box-shadow: inset 200px 200px 200px 0px black;
+    }
+}
+
+@media (min-width: 1321px){
+  #search-query input{
+      width: 78% !important;
+      justify-content: space-evenly;
+    }
+    
+    .card{
+        width: 33%;
+        margin: 0.1% !important;
+        overflow: hidden;
+      }
+    .card h5{
+      font-size: 1.2rem;
+      margin: 0.5%
+    }
+    .card p{
+      font-size: 0.9rem;
+      margin: 0.5%;
+    }
+    .card-img-overlay:hover{
+      box-shadow: inset 200px 200px 200px 0px black;
+    }
+  #filter-form{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+  #filter-city{
+    display:flex;
+    align-content:center;
+    width:50%;
+  }
+  #filter-source{
+    display:flex;
+    align-content:center;
+    width:25%;
+  }
+}
